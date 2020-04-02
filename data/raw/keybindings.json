@@ -693,14 +693,14 @@
     "id": "NEXT_CATEGORY_TAB",
     "category": "MODMANAGER_DIALOG",
     "name": "Move to next category tab",
-    "bindings": [ { "input_method": "keyboard", "key": ">" } ]
+    "bindings": [ { "input_method": "keyboard", "key": "]" } ]
   },
   {
     "type": "keybinding",
     "id": "PREV_CATEGORY_TAB",
     "category": "MODMANAGER_DIALOG",
     "name": "Move to previous category tab",
-    "bindings": [ { "input_method": "keyboard", "key": "<" } ]
+    "bindings": [ { "input_method": "keyboard", "key": "[" } ]
   },
   {
     "type": "keybinding",
@@ -883,7 +883,7 @@
     "id": "PREV_TARGET",
     "name": "Prev Target",
     "bindings": [
-      { "input_method": "keyboard", "key": "BACKTAB" },
+      { "input_method": "keyboard", "key": "<" },
       { "input_method": "mouse", "key": "SCROLL_UP" },
       { "input_method": "keyboard", "key": "PPAGE" }
     ]
@@ -893,7 +893,7 @@
     "id": "NEXT_TARGET",
     "name": "Next Target",
     "bindings": [
-      { "input_method": "keyboard", "key": "TAB" },
+      { "input_method": "keyboard", "key": ">" },
       { "input_method": "mouse", "key": "SCROLL_DOWN" },
       { "input_method": "keyboard", "key": "NPAGE" }
     ]
@@ -962,13 +962,13 @@
     "type": "keybinding",
     "id": "NEXT_TAB",
     "name": "Go to next tab",
-    "bindings": [ { "input_method": "keyboard", "key": "TAB" } ]
+    "bindings": [ { "input_method": "keyboard", "key": ">" } ]
   },
   {
     "type": "keybinding",
     "id": "PREV_TAB",
     "name": "Go to prev tab",
-    "bindings": [ { "input_method": "keyboard", "key": "BACKTAB" } ]
+    "bindings": [ { "input_method": "keyboard", "key": "<" } ]
   },
   {
     "type": "keybinding",
@@ -1187,14 +1187,14 @@
     "id": "NEXT_TAB",
     "category": "VEH_INTERACT",
     "name": "Go to next tab",
-    "bindings": [ { "input_method": "keyboard", "key": "TAB" } ]
+    "bindings": [ { "input_method": "keyboard", "key": ">" } ]
   },
   {
     "type": "keybinding",
     "id": "PREV_TAB",
     "category": "VEH_INTERACT",
     "name": "Go to prev tab",
-    "bindings": [ { "input_method": "keyboard", "key": "BACKTAB" } ]
+    "bindings": [ { "input_method": "keyboard", "key": "<" } ]
   },
   {
     "type": "keybinding",
