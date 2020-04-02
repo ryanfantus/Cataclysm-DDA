@@ -617,7 +617,7 @@ bool main_menu::opening_screen()
                     xlen += utf8_width( shortcut_text( c_white, vSettingsSubItems[i] ), true ) + 2;
                 }
                 xlen += settings_subs.size() - 1;
-                point offset = menu_offset + point( 46 + extra_w / 2 - ( xlen / 4 ), -2 );
+                point offset = menu_offset + point( 40 + extra_w / 2 - ( xlen / 4 ), -2 );
                 if( settings_subs.size() > 1 ) {
                     offset.x -= 6;
                 }
